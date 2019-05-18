@@ -15,11 +15,10 @@ public class App
     int a1 = scanner.nextInt();
         System.out.println("Podaj przyrost: ");
     int d = scanner.nextInt();
-    int ciag = 0;
 
-        for(int i =1; i <= n; i++){
-            ciag = a1+(i-1)*d;
-            System.out.println(ciag);
+
+        for(int i =2; i <= n; i++){
+            System.out.println(a1+(i-1)*d);
 
         }
     }
